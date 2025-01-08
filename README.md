@@ -1,4 +1,5 @@
 📖 Piscine: Python for Data Science
+---
 A curated pool of resources and exercises to help you master Python programming.
 ---
 Welcome to the Python Learning Pool! This repository is designed to help beginners and intermediate learners build their Python skills 
@@ -41,16 +42,19 @@ Binary Types:	bytes, bytearray, memoryview
 None Type:	NoneType
 
 
-1-List
+### 1-List
+---
 Lists are used to store multiple items in a single variable.
 Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary,
 all with different qualities and usage.
 List items are ordered, indexed, changeable, and allow duplicate values.
 
-2-Tuple
+### 2-Tuple
+---
 Tuple items are ordered, unchangeable, indexed, and allow duplicate values.
 
-3-Set Items
+### 3-Set Items
+---
 Set items are unordered, unchangeable, and do not allow duplicate values.
 Unordered
 Unordered means that the items in a set do not have a defined order.
@@ -59,7 +63,8 @@ Unchangeable
 Set items are unchangeable, meaning that we cannot change the items after the set has been created.
 Once a set is created, you cannot change its items, but you can remove items and add new items.
 
-4-Python Dictionaries
+### 4-Python Dictionaries
+---
 Dictionary items are ordered, changeable, and do not allow duplicates.
 Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
 
