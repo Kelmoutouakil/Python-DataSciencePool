@@ -68,6 +68,29 @@ Once a set is created, you cannot change its items, but you can remove items and
 Dictionary items are ordered, changeable, and do not allow duplicates.
 Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
 
+## Object Type && Match  case Statement
+------------------------
+### Object Type 
+---
+to print an object 's type in python we use 'type' function ,it 's mostly used for debugging purposes,it can be used with single parameter or 3 like this
+Syntax: type(object, bases, dict)
+object: Required. If only one parameter is specified, the type() function returns the type of this object
+bases : tuple of classes from which the current class derives. Later corresponds to the __bases__ attribute. 
+dict : a dictionary that holds the namespaces for the class. Later corresponds to the __dict__ attribute.
+Return: returns a new type class or essentially a metaclass.
+exemple : x = 10
+print(type(x))
+### Match case statement:
+---
+It allows us to perform more expressive and readable conditional checks. Unlike traditional if-elif-else chains, which can become unwieldy with complex conditions, the match-case statement provides a more elegant and flexible solution (like switch case in other language).
+### What is NaN?
+---
+NaN stand for not a number.
+It is a special value in floating-point arithmetic that represents undefined or unrepresentable results, such as dividing zero by zero or taking the square root of a negative number.
+Exemple
+nan_value = float("NaN")
+print(nan_value == nan_value)  # Output: False
+
 
 
 
