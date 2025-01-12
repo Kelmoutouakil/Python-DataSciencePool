@@ -68,6 +68,7 @@ Once a set is created, you cannot change its items, but you can remove items and
 Dictionary items are ordered, changeable, and do not allow duplicates.
 Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
 
+<<<<<<< HEAD
 ## Object Type && Match  case Statement
 ------------------------
 ### Object Type 
@@ -91,6 +92,23 @@ Exemple
 nan_value = float("NaN")
 print(nan_value == nan_value)  # Output: False
 
+=======
+## Dates && Times in Python:
+------------------------
+### Python datetime
+---
+In Python, date and time are not data types of their own, but a module named DateTime in Python can be imported to work with the date as well as time. Python Datetime module comes built into Python, so there is no need to install it externally. 
+Python Datetime module supplies classes to work with date and time. These classes provide several functions to deal with dates, times, and time intervals. Date and DateTime are an object in Python, so when you manipulate them, you are manipulating objects and not strings or timestamps. 
+
+The DateTime module is categorized into 6 main classes – 
+
+date – An idealized naive date, assuming the current Gregorian calendar always was, and always will be, in effect. Its attributes are year, month, and day. you can refer to – Python DateTime – Date Class
+time – An idealized time, independent of any particular day, assuming that every day has exactly 24*60*60 seconds. Its attributes are hour, minute, second, microsecond, and tzinfo. You can refer to – Python DateTime – Time Class
+date-time – It is a combination of date and time along with the attributes year, month, day, hour, minute, second, microsecond, and tzinfo. You can refer to – Python DateTime – DateTime Class
+timedelta – A duration expressing the difference between two date, time, or datetime instances to microsecond resolution. You can refer to – [Python DateTime – Timedelta Class](https://www.geeksforgeeks.org/python-datetime-tzinfo/)
+tzinfo – It provides time zone information objects. You can refer to – Python – datetime.tzinfo()
+timezone – A class that implements the tzinfo abstract base class as a fixed offset from the UTC (New in version 3.2). You can refer to –[ Handling timezone in Python](https://www.geeksforgeeks.org/handling-timezone-in-python/)
+>>>>>>> b8692560e115f1f7d1ed906285cf1ac14bc489e1
 
 
 
