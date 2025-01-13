@@ -91,7 +91,46 @@ Exemple
 nan_value = float("NaN")
 print(nan_value == nan_value)  # Output: False
 
+### Using sys.argv
+---
+The sys module provides functions and variables used to manipulate different parts of the Python runtime environment. This module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
+One such variable is sys.argv which is a simple list structure. It’s main purpose are:
+
+It is a list of command line arguments.
+len(sys.argv) provides the number of command line arguments.
+sys.argv[0] is the name of the current Python script. 
+ 
+### string.punctuation in Python
+
+In Python, the string module is a pre-initialized string used as a string constant. One such constant is string.punctuation, which provides a predefined string containing all the characters commonly considered punctuation.
+import string
+
+# Check if a character is punctuation
+char = "!"
+if char in string.punctuation:
+    print(f"{char}")
+
+### Pyhton input
+
+Python input() function is used to take user input. By default, it returns the user input in form of a string.
+
+input() Function 
+Syntax: 
 
 
+input(prompt)
+prompt [optional]: any string value to display as input message
 
+
+Ex: input(“What is your name? “)
+
+
+Returns: Return a string value as input by the user.
+### Understanding EOFError
+
+The EOFError is raised in several contexts:
+
+Interactive Input: When using the input() in the script that expects user input but does not receive any.
+File Handling: When attempting to read past the end of the file using the methods like readline() or read().
+Automated Testing: When scripts or tests are run in the environment where user input is not provided as expected.
 
