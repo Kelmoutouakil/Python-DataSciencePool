@@ -134,3 +134,19 @@ Interactive Input: When using the input() in the script that expects user input 
 File Handling: When attempting to read past the end of the file using the methods like readline() or read().
 Automated Testing: When scripts or tests are run in the environment where user input is not provided as expected.
 
+### Python Lambda Functions
+---
+Python Lambda Functions are anonymous functions means that the function is without a name. As we already know the def keyword is used to define a normal function in Python. Similarly, the lambda keyword is used to define an anonymous function in Python. 
+
+In the example, we defined a lambda function(upper) to convert a string to its upper case using upper().
+s1 = 'GeeksforGeeks'
+s2 = lambda func: func.upper()
+print(s2(s1))
+### List Comprehension in Python
+---
+List comprehension is a way to create lists using a concise syntax. It allows us to generate a new list by applying an expression to each item in an existing iterable (such as a list or range). This helps us to write cleaner, more readable code compared to traditional looping techniques.
+
+For example, if we have a list of integers and want to create a new list containing the square of each element, we can easily achieve this using list comprehension.
+a = [2,3,4,5]
+res = [val ** 2 for val in a]
+print(res)
